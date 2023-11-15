@@ -14,7 +14,7 @@ function Service() {
 
       <h1 className='heading'>Venders by Category</h1>
       <p className='text-head'>Browse vendors here by their categories like wedding lawns, marriage gardens, photographers, bridal wear, makeup artists and many more with Shaadiyari.</p>
-      <div className='grid'>
+      <div className='srgrid'>
         <div className='box'>
         <Link to="/service/vendors" className='text'>
           <div className='imgbor'>
@@ -28,35 +28,38 @@ function Service() {
 
 
         <div className='box'>
+        <Link to="/service/Caterers">
           <div className='imgbor'>
             <div className='img'>
               <img src={img2} className='img1'></img>
               <div className='text'>
                 Wedding Caterers  </div>
             </div>
-          </div>
+          </div></Link>
         </div>
 
 
         <div className='box'>
+          <Link to="/service/photo">
           <div className='imgbor'>
             <div className='img'>
               <img src={img3} className='img1'></img>
               <div className='text'>
                 Wedding Photographer  </div>
             </div>
-          </div>
+          </div></Link>
         </div>
         
 
         <div className='box'>
+          <Link to="/service/card">
           <div className='imgbor'>
             <div className='img'>
               <img src={img4} className='img1'></img>
               <div className='text'>
                 Wedding Cards  </div>
             </div>
-          </div>
+          </div></Link>
         </div>
 
         <div className='box'>
