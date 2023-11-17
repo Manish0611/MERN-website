@@ -26,6 +26,7 @@ import Bandhancard from "./component/service/Cards/bandhancard/Bandhancard";
 import Badhai from "./component/service/Cards/bandhancard/Badahai";
 import Madam from "./component/service/Cards/bandhancard/madam";
 import Indian from "./component/service/Cards/bandhancard/indian";
+import Serverit from "./component/serverit/Serverit";
 import {
   BrowserRouter as Router,
   Route,
@@ -65,6 +66,7 @@ function App() {
           <Route path="/service/card/badhai" element={<Badhai/>} />
           <Route path="/service/card/Mdam" element={<Madam/>} />
           <Route path="/service/card/indian" element={<Indian/>} />
+          <Route path="/server" element={<Serverit/>} />
         </Routes>
         <Footer />
       </Router>
