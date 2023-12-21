@@ -16,7 +16,7 @@ import { Link } from "react-router-dom"
 function Caterers(){
     return(
         
-        <div>
+        <div className="catererpage">
             <h1 className="heading">Wedding Caterers in India</h1>
             <div className='vgrid'>
         <div className='box'>

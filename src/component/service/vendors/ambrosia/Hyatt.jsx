@@ -13,8 +13,11 @@ function Hyatt(){
         <div className="ambody" ><div className="backf"><h1 className="heading">Hyatt Centric Rajpur Road </h1>
        <img src={imf} alt=""  className="weblovc"/> 
         <img src={loc} className="imgloc1"></img>
-        <div className="cart">
-          <Link to="/server"> <button className="cartf"><img src={cart} alt="" />Add to Cart</button></Link></div>
+        <div className="cart">   <Link to="/server">   <button className="cartf">
+                <i class="uil uil-message"></i>
+                        Message Us
+                    </button></Link>
+                    </div>
         <div className="loc1">Chennai</div>
         <img src={group} className="visicon1"></img>
         <div className="number1">Visitor Number-650</div>

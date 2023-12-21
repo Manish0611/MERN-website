@@ -1,4 +1,6 @@
-
+.ambody .backf h1{
+    text-align: center;
+}
 body{
     background-color: rgb(234, 234, 234);
 }
@@ -133,6 +135,10 @@ height: 280px;
 
 .ambody{
     height: 2400px;
+    overflow-x: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .ambody1{
     height: 2600px;

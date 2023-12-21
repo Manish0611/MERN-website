@@ -16,10 +16,10 @@ import { Link } from "react-router-dom"
 function Vendors(){
     return(
         
-        <div>
-            <h1 className="heading">Wedding Venues in India</h1>
+        <div className="vendorspage">
+            <h1 className="heading-ven">Wedding Venues in India</h1>
             <div className='vgrid'>
-        <div className='box'>
+        <div className='box-ven'>
         <Link to="/service/vendors/Ambrosia">
           <div className='imgbor'>
             <div className='img'>
@@ -44,7 +44,7 @@ function Vendors(){
         </div>
 
 
-        <div className='box'>
+        <div className='box-ven'>
         <Link to="/service/vendors/vrindwoods">
           <div className='imgbor'>
             <div className='img'>
@@ -67,7 +67,7 @@ function Vendors(){
         </div>
 
 
-        <div className='box'>
+        <div className='box-ven'>
           <Link to="/service/vendors/markhotel">
           <div className='imgbor'>
             <div className='img'>

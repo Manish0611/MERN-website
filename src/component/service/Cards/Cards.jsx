@@ -16,7 +16,7 @@ import { Link } from "react-router-dom"
 function Card(){
     return(
         
-        <div>
+        <div className="weddingcard">
             <h1 className="heading">Wedding Cards in India</h1>
             <div className='vgrid'>
         <div className='box'>

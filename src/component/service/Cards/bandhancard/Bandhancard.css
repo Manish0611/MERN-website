@@ -111,7 +111,7 @@ height: 280px;
         font-size: 25px;
 
     }
-.grid{
+.grid-b{
         display: grid;
         grid-template-columns:2fr 2fr;
         height: 300px;
@@ -133,6 +133,7 @@ height: 280px;
 
 .ambody{
     height: 2400px;
+    background-color: white;
 }
 .ambody1{
     height: 2600px;

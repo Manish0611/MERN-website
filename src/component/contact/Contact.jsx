@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import homeing from "../../assets/final.webp" 
+import homeimg from "../../assets/final.webp";
 function Contact() {
   //get database
   const nameInput = document.querySelector("#name");

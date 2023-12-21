@@ -7,14 +7,18 @@ import tick from"../../../../assets/tick.jpg"
 import imf from "../../../../assets/bandhan-cards.jpg"
 import wrong from "../../../../assets/icons8-wrong.svg"
 import cart from "../../../../assets/cart.svg"
+import { Link } from "react-router-dom"
 function Badhai(){
     return(
         
         <div className="ambody" ><div className="backf"><h1 className="hheading">Badhai Cards</h1>
        <img src={imf} alt=""  className="weblovc"/> 
         <img src={loc} className="imgloc1"></img>
-        <div className="cart"><button className="cartf"><img src={cart} alt="" />Add to Cart</button></div>
-        <div className="loc1">Delhi</div>
+        <div className="cart">   <Link to="/server">   <button className="cartf">
+                <i class="uil uil-message"></i>
+                        Message Us
+                    </button></Link>
+                    </div>        <div className="loc1">Delhi</div>
         <img src={group} className="visicon1"></img>
         <div className="number1">Visitor Number-220</div>
         <div className="like1">
@@ -50,7 +54,7 @@ What sets us apart is our commitment to quality and craftsmanship. Each card in 
             <h1 className="sphead">Special Specifications</h1>
             <hr />
             <div className="jk">
-            <div className="grid">
+            <div className="grid-b">
                 <div className="box1"><img src={tick} className="tick"  ></img>Traditional Invitations</div>
                 <div className="box1"><img src={tick} className="tick"  ></img>Funky & Offbeat Invitations</div>
                 <div className="box1"><img src={tick} className="tick"  ></img>Handmade Cards</div>
